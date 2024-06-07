@@ -1,0 +1,32 @@
+.author-tables{
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.main-table {
+    border-radius: 20px;
+    border: 3px dashed #313131;
+    width: 100%;
+    border-collapse: separate; 
+    border-spacing: 7px;
+    padding: 5px; 
+}
+
+.main-table th {
+  text-align: center;
+  font-size: 12px;
+  padding: 8px 5px;
+  color: #464646;
+}
+
+.main-table td {
+    text-align: center;
+    padding: 2px 5px;
+    border: 2px solid #3d3d3d;
+    border-radius: 6px;
+    color: #fff;
+}
+
+.table-dates{
+    background-color: #686868;
+}

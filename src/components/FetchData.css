@@ -1,0 +1,94 @@
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main-page-selector {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .main-page-selector label {
+    font-size: 1.2rem;
+    line-height: 0rem;
+    color: #BF7A94;
+    font-weight: bold;
+  }
+  
+  .main-page-selector select {
+    width: 220px;
+    padding: 8px;
+    font-size: 14px;
+    color: #343434;
+    background-color: #ffffff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    appearance: none; 
+    background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 5"><path fill="%23333" d="M2 0L0 2h4z"/></svg>'); /* Custom arrow */
+    background-repeat: no-repeat;
+    background-position: right 10px top 50%;
+    background-size: 10px 10px;
+    padding-right: 30px;
+  }
+  
+  
+  .main-page-selector select:focus {
+    border-color: #D9B0BF;
+  }
+  
+  .main-page-selector select::-ms-expand {
+    display: none;
+  }
+  
+  .main-page-selector select option {
+    text-align: center;
+  }
+
+  .author-selector {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+  
+.author-selector label {
+    font-size: 1rem;
+    color: #535925;
+    font-weight: bold;
+  }
+  
+  .author-selector select {
+    width: 200px;
+    padding: 8px;
+    font-size: 0.9rem;
+    color: #333;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    appearance: none; 
+    background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 5"><path fill="%23333" d="M2 0L0 2h4z"/></svg>'); /* Custom arrow */
+    background-repeat: no-repeat;
+    background-position: right 10px top 50%;
+    background-size: 10px 10px;
+    padding-right: 30px;
+  }
+
+  .author-selector select:focus {
+    border-color: #535925;
+  }
+  
+  .author-selector {
+    margin-top: 20px;
+  }
+  
+  
+  
