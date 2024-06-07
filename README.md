@@ -33,7 +33,7 @@ To install all packages used, run
 
 `npm install recharts`
 
-# Running Locally
+# Run Locally
 
 To run this project on live server, run
 
