@@ -41,8 +41,8 @@ To build this file, run
 
 `npm run build`
 
-# Adding svgs
+# 3rd party attributions
 
-to add svg in your 'after build' files, convert svg html code to data uri code using any site such as,
+- Logo for website is used from [Freepik Business and Finance icons](https://www.flaticon.com/free-icons/business-and-finance")
 
-[svg to data uri converter by, hellayan](https://heyallan.github.io/svg-to-data-uri/)
+- Site hosted on [Netlify](https://www.netlify.com/)
