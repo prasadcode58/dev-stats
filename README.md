@@ -1,30 +1,48 @@
-# React + TypeScript + Vite
+# dev-stats
+A minimal site to fetch "Dev Dynamics" author's data and see important statistics.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Pre-requisites
 
-Currently, two official plugins are available:
+This project uses,
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [vitejs](https://vitejs.dev/)
 
-## Expanding the ESLint configuration
+- [nodejs](https://nodejs.org/en)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- [Typescript](https://www.typescriptlang.org/docs/)
 
-- Configure the top-level `parserOptions` property like this:
+- [React.Js](https://react.dev/learn)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- [Recharts](https://recharts.org/en-US/guide)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- [Axios](https://axios-http.com/docs/intro)
+
+- [Adobe Color](https://color.adobe.com/Spring%202021-color-theme-17602837)
+
+# Install Packages
+
+To install all packages used, run
+
+`npm install i`
+
+`npm install axios`
+
+`npm install recharts`
+
+# Running Locally
+
+To run this project on live server, run
+
+`npm run dev`
+
+# Build for deploy
+
+To build this file, run
+
+`npm run build`
+
+# Adding svgs
+
+to add svg in your 'after build' files, convert svg html code to data uri code using any site such as,
+
+[svg to data uri converter by, hellayan](https://heyallan.github.io/svg-to-data-uri/)
