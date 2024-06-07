@@ -1,5 +1,9 @@
 # dev-stats
-A minimal site to fetch "Dev Dynamics" author's data and see important statistics.
+A minimal site to fetch "Dev Dynamics" author's data and see important statistics. 
+<br/>
+This project is created using React.js with Typescript and is locally build and bundled using Vite.js.
+<br/>
+The project uses color scheme from Adobe Color, Site logo from Freepik and is deployed on Netlify.
 
 # Pre-requisites
 
